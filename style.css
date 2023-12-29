@@ -1,0 +1,186 @@
+/* Variables */
+:root {
+  --primary-color: #4a90e2;
+  --secondary-color: #f5f5f5;
+  --text-color: #333333;
+  --font-family: Arial, sans-serif;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styles du header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: var(--secondary-color);
+}
+
+.logo {
+  width: 10rem;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 0.5rem;
+}
+
+/* Styles du main */
+main {
+  padding: 1rem;
+}
+
+section {
+  margin: 1rem 0;
+}
+
+h2 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+/* Styles du slider */
+.slider {
+  position: relative;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.caption {
+  position: relative;
+  z-index: 1;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+/* Styles des livres */
+.books {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book {
+  width: 25%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book img {
+  width: 10rem;
+}
+
+/* Styles des actualités */
+.news {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news-item {
+  width: 50%;
+  padding: 0.5rem;
+  display: flex;
+}
+
+.news-item img {
+  width: 15rem;
+}
+
+.content {
+  padding: 0.5rem;
+}
+
+/* Styles du footer */
+footer {
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  /* Styles pour les écrans de taille moyenne */
+  .book {
+    width: 50%;
+  }
+
+  .news-item {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .news-item img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles pour les écrans de petite taille */
+  .book {
+    width: 100%;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 0.5rem 0;
+  }
+}
