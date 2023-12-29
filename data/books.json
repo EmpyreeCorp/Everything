@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Le rêve du pêcheur",
+    "author": "Hemley Boum",
+    "genre": "Roman",
+    "cover": "images/book1.jpg",
+    "file": "data/le_reve_du_pecheur.json"
+  },
+  {
+    "id": 2,
+    "title": "La conscience contre la violence",
+    "author": "Stefan Zweig",
+    "genre": "Essai",
+    "cover": "images/book2.jpg",
+    "file": "data/la_conscience_contre_la_violence.json"
+  },
+  {
+    "id": 3,
+    "title": "La fin du monde est pour dimanche",
+    "author": "Eric Salch",
+    "genre": "Bande dessinée",
+    "cover": "images/book3.jpg",
+    "file": "data/la_fin_du_monde_est_pour_dimanche.json"
+  }
+]

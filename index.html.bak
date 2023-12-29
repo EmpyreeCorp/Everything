@@ -25,7 +25,7 @@
     <main>
         <section class="slider">
             <div class="slide">
-                <img src="images/poster_eve.png" alt="Slide 1">
+                <img src="images/poster_eve.jpg" alt="Slide 1">
                 <div class="caption">
                     <h2>Le livre du mois</h2>
                     <h3>Le rêve du pêcheur</h3>
@@ -38,7 +38,7 @@
         <section class="books">
             <h2>Les livres les plus populaires</h2>
             <div class="book">
-                <img src="images/poster_eve.png" alt="Book 1">
+                <img src="images/poster_eve.jpg" alt="Book 1">
                 <div class="info">
                     <h3>La conscience contre la violence</h3>
                     <p>Stefan Zweig</p>
@@ -51,7 +51,7 @@
         <section class="news">
             <h2>Les dernières actualités</h2>
             <div class="news-item">
-                <img src="images/poster_eve.png" alt="News 1">
+                <img src="images/poster_eve.jpg" alt="News 1">
                 <div class="content">
                     <h3>Humour et fin de vie : interview d'Eric Salch</h3>
                     <p>L'auteur de la bande dessinée "La fin du monde est pour dimanche" nous parle de son rapport à la mort, à l'humour et à la création.</p>
