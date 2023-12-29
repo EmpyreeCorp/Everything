@@ -1,4 +1,4 @@
-
+<script>
   // Sélectionner la section "selection"
   let selection = document.querySelector(".selection");
 
@@ -40,3 +40,4 @@
       // Afficher un message d'erreur dans la section "selection"
       selection.innerHTML = `<p>Une erreur est survenue : ${error.message}</p>`;
     });
+</script>
