@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Babelio - Découvrez des livres, critiques, extraits, résumés</title>
+    <title>Everything - Le site des histoires</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
@@ -60,9 +60,13 @@
             </div>
             <!-- Ajouter d'autres actualités ici -->
         </section>
+		<section>
+            <h2>Notre Sélection</h2>
+				<script src="selection.html"></script>
+        </section>
     </main>
     <footer>
-        <p>© 2023 Babelio. Tous droits réservés.</p>
+        <p>© 2023 Everything. Tous droits réservés.</p>
     </footer>
 </body>
 </html>
